@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "nav-bar":"/Commpents/nav-bar/index",
+    "sms-time":"/Commpents/sms-time/index",
+    "van-field": "@vant/weapp/field/index"
+
+  },
+  "navigationStyle": "custom"
+}

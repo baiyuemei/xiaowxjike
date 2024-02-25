@@ -1,0 +1,51 @@
+/* pages/login/index.wxss */
+/* pages/login/index.wxss */
+page {
+  padding: 0;
+}
+
+.login {
+  margin: 90rpx 25rpx 0;
+  padding: 30rpx 20rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+.content{
+  width: 300rpx;
+  height: 60rpx;
+  margin: 200rpx 25rpx 0;
+}
+.content .msg_text{
+  font-size: 60rpx;
+}
+.login .form-field {
+  display: flex;
+  height: 100rpx;
+  align-items: center;
+  border-bottom: 1rpx solid #F0F0F0 ;
+}
+
+.color{
+  color: #A5A6AB;
+}
+
+
+.login .label {
+  padding-right: 20rpx;
+  line-height: 100rpx;
+  color:  #A5A6AB ;
+}
+
+.login input {
+  flex: 1;
+  height: 54rpx;
+  line-height: 54rpx;
+  border: none;
+}
+
+.login button {
+  width: 100% !important;
+  margin-top: 50rpx;
+  color: #fff;
+  background-color: #f95a3a;
+}

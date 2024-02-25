@@ -1,0 +1,5 @@
+<!--Commpents/sms-time/index.wxml-->
+<view class="msg-t">
+<slot wx:if="{{useSlot}}"></slot>
+<text wx:else>{{time}}</text>
+</view>

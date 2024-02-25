@@ -1,3 +1,5 @@
 <!--pages/index/index.wxml-->
 <text>pages/index/index.wxml</text>
 <van-button type="primary">dianji</van-button>
+
+<navigator url="/pages/login/index">tiaozhuang</navigator>

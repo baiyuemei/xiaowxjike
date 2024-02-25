@@ -1,0 +1,9 @@
+/* Commpents/nav-bar/index.wxss */
+.navigation-bar-back {
+  position: absolute;
+  left: 15px;
+  width: 44rpx;
+  height: 44rpx;
+  background-image: url(https://lotjol.github.io/static-store/enjoy-plus/images/back-arrow.svg);
+  background-repeat: no-repeat;
+}

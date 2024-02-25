@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/questions/index",
     "pages/video/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/login/index"
   ],
   "tabBar": {
     "selectedColor": "#f9622d",
@@ -12,31 +13,31 @@
     "list": [{
       "pagePath": "pages/index/index",
        "text":"首页",
-       "iconPath": "",
-       "selectedIconPath": ""
+       "iconPath": "/static/tabs/home_default.png",
+       "selectedIconPath": "/static/tabs/home_active.png"
     },
     {
       "pagePath": "pages/questions/index",
        "text":"问答",
-       "iconPath": "",
-       "selectedIconPath": ""
+       "iconPath": "/static/tabs/消息.png",
+       "selectedIconPath": "/static/tabs/消息 (1).png"
     },
     {
       "pagePath": "pages/video/index",
        "text":"视频",
-       "iconPath": "",
-       "selectedIconPath": ""
+       "iconPath": "/static/tabs/视频 (3).png",
+       "selectedIconPath": "/static/tabs/视频 (2).png"
     },{
       "pagePath": "pages/my/index",
        "text":"我的",
-       "iconPath": "",
-       "selectedIconPath": ""
+       "iconPath": "/static/tabs/my_default.png",
+       "selectedIconPath": "/static/tabs/my_active.png"
     }
   ]
   },
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
+    
     "navigationBarBackgroundColor": "#ffffff"
   },
 

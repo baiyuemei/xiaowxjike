@@ -1,0 +1,7 @@
+<!--Commpents/nav-bar/index.wxml-->
+<view class="title-class" style="padding-top: {{height}}px;">
+ <text class="navigation-bar-back" bind:tap="goBack" wx:if="{{back}}"></text>
+ 
+</view>
+
+

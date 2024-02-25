@@ -1,0 +1,25 @@
+<!-- 返回箭头 -->
+<nav-bar back delta="{{1}}">
+</nav-bar>
+<view class="content">
+  <text class="msg_text">短信登录</text>
+</view>
+<view class="login">
+  <form bindsubmit="formSubmit">
+    <view class="form-field">
+    <input type="text" placeholder="请输入手机号" name="mobile" model:value="{{mobile}}"  placeholder-class="color"  />
+  
+  </view>
+  <view class="form-field">
+    <input type="text" model:value="{{code}}" placeholder="请输入短信验证码" name="code"  placeholder-class="color" />
+      <!-- 倒计时组件 -->
+     <sms-time useSlot  msg-t="label" bind:change="getsmscode" wx:if="{{showcode}}">
+      {{time}}S后重新获取
+     </sms-time>
+      
+   
+    <text bind:tap="getCode" wx:else class="label">获取短信验证码</text>
+  </view>
+  <button form-type="submit">登录</button>
+  </form>
+</view>
